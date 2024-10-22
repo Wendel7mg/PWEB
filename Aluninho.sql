@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `alunos`
+-- Estrutura para criação da tabela `alunos`
 --
 
 CREATE TABLE `alunos` (
@@ -34,18 +34,18 @@ CREATE TABLE `alunos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Despejando dados para a tabela `alunos`
+-- Inserindo dados para a tabela `alunos`
 --
 
 INSERT INTO `alunos` (`id_alunos`, `nome_aluno`, `idade`) VALUES
-(1, 'Afonso', 31),
-(2, 'Guilherme ', 17),
-(3, 'Heloisa', 18),
-(4, 'Adrielly', 18),
-(5, 'Maiara', 19);
+(1, 'Wendel', 18),
+(2, 'Daniel ', 18),
+(3, 'Gustavo', 17),
+(4, 'Pedro', 16),
+(5, 'Vinicius', 18);
 
 --
--- Índices para tabelas despejadas
+-- Índices para tabelas inseridas
 --
 
 --
@@ -55,7 +55,7 @@ ALTER TABLE `alunos`
     ADD PRIMARY KEY (`id_alunos`);
 
 --
--- AUTO_INCREMENT para tabelas despejadas
+-- AUTO_INCREMENT para tabelas inseridas, assim, incrementando automaticamente
 --
 
 --
